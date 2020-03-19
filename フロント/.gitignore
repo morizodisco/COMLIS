@@ -1,0 +1,6 @@
+.idea
+application/config/config.php
+application/config/database.php
+system/
+phpMyAdmin/
+vendor/

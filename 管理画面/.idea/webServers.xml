@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="427e0aac-2ecb-4739-a5b5-1bcd2d299aa9" name="管理画面開発環境" url="http://54.92.28.248">
+        <fileTransfer host="54.92.28.248" port="22" privateKey="C:\Users\awaha\.ssh\combs-comlis.pem" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

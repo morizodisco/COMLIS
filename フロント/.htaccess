@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+RewriteCond     %{HTTP:Authorization} ^(.*)
+RewriteRule     ^(.*) - [E=HTTP_AUTHORIZATION:%1]
+RewriteCond $1 !^(index\.php|images|.+\.css$|.+\.js$|.+\.otf$|.+\.png$|.+\.jpg$|robots\.txt|cron)
+RewriteRule ^(.*)$ index.php?/$1 [L]

@@ -1,0 +1,6 @@
+{
+    "name": "ec2-user/html",
+    "require": {
+        "aws/aws-sdk-php": "^3.133"
+    }
+}
